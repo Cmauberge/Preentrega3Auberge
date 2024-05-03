@@ -1,0 +1,28 @@
+.flex {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+&:hover {
+    background-color: darken( rgb(195, 0, 255), 10%);
+  }
+
+@mixin img-stylegs($max-width: 100%, $height: auto) {
+    max-width: $max-width;
+    height: $height;
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+
+.titulo {
+    @include text-styles(24px, 'Arial', rgb(195, 0, 255));
+    font-weight: bold; 
+  }
+  
+  .p {
+    @include text-styles(16px, 'Helvetica', #b2a3b8); 
+  }
+  

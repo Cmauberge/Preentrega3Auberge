@@ -1,11 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link rel="stylesheet" href="CSS/style.css">
+<title>Principal</title>
 </head>
+ <header>
+    <nav class="navbar bg-lila navbar-expand-md position relative z-3" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Renata shoes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header bg-lila">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-lila">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Mi carrito</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SS24</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+ </header>
+
+ <main>
+
+<section class="hero container">
+    <article class="hero-content">
+        <h1>AW24</h1>
+        <p>Solo por HOY 30% off y 12 cuotas sin interes</p>
+    <a href="">Ver productos</a>
+    </article>
+    <div class="hero-img">
+        <img src="image/img1.jpg" alt="img1">
+        <span></span>
+    </div>
+</section>
+    <section id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/Renata.png" class="d-block w-100" alt="img2">
+          </div>
+          <div class="carousel-item">
+            <img src="image/shoes2.jpg" class="d-block w-100" alt="img3">
+          </div>
+          <div class="carousel-item">
+            <img src="image/texanas1.webp" class="d-block w-100" alt="img4">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <div class="col-md-12">
+        <h2 class="text-center p-5">Nuestros productos</h2>
+    </div>
+
+<section class="contenedordeproductos">        
+<div class="contenedor-cards">
+                    <div class="producto">
+                    <img src="image/stiletto1.webp" alt="img1">
+                    <div class="producto-content">
+                        <h2>Stiletto Dora</h2>
+                        <p>$18000</p>
+                        <a href="">Comprar</a>
+                    </div>
+                </div>
+
+<div class="producto">
+    <img src="image/stiletto2.webp" alt="img2">
+        <div class="producto-content">
+          <h2>Stiletto Juana</h2>
+            <p>$18000</p>
+              <a href="">Comprar</a>
+            </div>
+        </div>
+
+   <div class="producto">
+        <img src="image/stiletto3.webp" alt="img3">
+        <div class="producto-content">
+            <h2>Stiletto Lara</h2>
+            <p>$18000</p>
+            <a href="">Comprar</a>
+        </div>
+    </div>
+
+  <div class="producto">
+     <img src="image/borsegos1.webp" alt="img4">
+      <div class="producto-content">
+        <h2>Borsegos Cali</h2>
+         <p>$20000</p>
+          <a href="">Comprar</a>
+        </div>
+    </div>
+
+
+    <div class="producto">
+        <img src="image/borsegos2.webp" alt="img5">
+        <div class="producto-content">
+            <h2>Borsegos Tina</h2>
+            <p>$20000</p>
+            <a href="">Comprar</a>
+        </div>
+    </div>
+</div>
+
+</article>
+ </section>
+ <section class="about">
+    <h4>Moda que se ajusta a tu ritmo</h4>
+    <p>@renatashoes</p>
+ </section>
+ </main>
+
+ <footer>
+
+<div class="b-example-divider"></div>
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-3 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comprar</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Promociones</a></li>
+        </ul>
+      </div>
+
+      <div class="col-3 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comprar</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Promociones</a></li>
+        </ul>
+      </div>
+
+      <div class="col-3 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comprar</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Promociones</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>subscribe to get promotions</h5>
+          <p>Promotions and discounts</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <a href="" class="boton">Subscribirse</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2024 - Renata</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </div>
+ </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <body>
-  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> 
 </body>
 </html>
