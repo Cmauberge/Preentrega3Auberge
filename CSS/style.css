@@ -126,7 +126,7 @@ body {
 }
 
 
-/* about */
+
 .about {
     height: 800px;
     background: url(../image/gif.gif);
@@ -137,7 +137,7 @@ body {
     color: white;
 }
  
-/* contacto */
+
 form {
     background-color: rgb(214, 210, 219);
     display: grid;
@@ -184,7 +184,6 @@ img {
     height: auto;
 }
 
-/* Otro */
 
 header {
     background-color: rgb(180, 128, 229);
