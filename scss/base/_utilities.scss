@@ -6,7 +6,7 @@ gap: 10px;
 }
 
 &:hover {
-    background-color: darken( rgb(195, 0, 255), 10%);
+    background-color: darken (rgb(205, 174, 233) 10%);
   }
 
 @mixin img-stylegs($max-width: 100%, $height: auto) {
@@ -18,11 +18,11 @@ gap: 10px;
   
 
 .titulo {
-    @include text-styles(24px, 'Arial', rgb(195, 0, 255));
+    @include text-styles(24px, 'Arial', rgb(253, 253, 253));
     font-weight: bold; 
   }
   
-  .p {
-    @include text-styles(16px, 'Helvetica', #b2a3b8); 
+  .h1 {
+    @include text-styles(16px, 'Helvetica', #000000); 
   }
   

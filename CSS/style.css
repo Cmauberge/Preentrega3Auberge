@@ -1,14 +1,13 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-x: hidden;
-        background-image: url('../image/fondo1.jpg');
+        background-image: url('../image/fondo.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
-}
-
-.bg-lila {
-    background-color: rgb(205, 174, 233);
+        .bg-lila {
+            background-color: rgb(205, 174, 233);
+        }
 }
 
 .hero {
@@ -32,7 +31,7 @@ body {
         display: block;
         width: 400%;
         height: 400%;
-        background-color: rgb(172, 131, 211);
+        background-color: rgba(193, 153, 229, 0.973);
         border-radius: 100%;
         position: absolute;
         bottom: 0px;
@@ -66,6 +65,11 @@ body {
     }
 }
 
+.contenedordeproductos {
+    display: flex; 
+    align-items: center;
+    gap: 60px;
+}
 
 .contenedor-cards {
     display: flex;
@@ -73,7 +77,6 @@ body {
     width: 100%;
     height: 70%;
 }
-
  
 .producto {
     background-color: rgb(180, 128, 229);
@@ -81,6 +84,7 @@ body {
     padding: 30px;
     border: 10px solid rgb(255, 255, 255);
     overflow-x: hidden;
+
 }
 
 .producto img{
@@ -117,6 +121,10 @@ body {
     background-color: rgb(158, 106, 204);
 }
 
+.span {
+    background-color: #eb1313;
+    padding: 5px;
+}
 
 .about {
     height: 800px;
@@ -128,7 +136,6 @@ body {
     color: white;
 }
  
-
 form {
     background-color: rgb(214, 210, 219);
     display: grid;
@@ -150,6 +157,21 @@ textarea {
     border-radius: 5px;
 }
 
+.imagen-otro {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.centrado {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
 
 .carrito {
     display: grid;
@@ -157,13 +179,12 @@ textarea {
     gap: 20px;
     padding: 20px;
 
+    
     .carrito :hover {
         width: 80%;
         transition: 0.5s;
         }
 }
-
-
 
 .image {
     border-radius: 10px;
@@ -183,6 +204,8 @@ header {
     padding: 20px;
     text-align: center;
 }
+
+
 nav {
     background-color:  #a8a6ac;
     color: #fff;

@@ -1,12 +1,16 @@
 
-@mixin galeria( ) {
+@mixin carrito( ) {
     display: grid;
     grid-template-columns: repeat(3, 20px);
     gap: $gap;
+    ppading: 20px;
   
     .im {
       width: 100%;
       height: auto;
     }
+    .carrito :hover {
+      width: 80%;
+      transition: 0.5s;
+      }
   }
-  
